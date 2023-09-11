@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJ Shop</title>
+    <style>
+        
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+.info{
+    font-size: large;
+    margin-left: 12cm;
+    
+    
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  
+}
+.cont{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a:hover{
+   font-weight: 900;
+   color: orangered;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url('back1.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.featured-products {
+    padding: 40px 0;
+}
+
+.product {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    height: 5m;
+    width:5cm;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.product:hover{
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    background-blend-mode:multiply;
+    
+}
+
+.product h3 {
+    font-size: 24px;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.contact {
+    text-align: center;
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1>AJ Shop</h1>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Welcome to AJ Shop</h2>
+            <p> all your favorite products are here.</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <section class="featured-products">
+        <h2>Featured Products</h2>
+        <div class="container cont">
+            
+            <div class="product">
+                
+                <img src="headphone1.jpg" alt="Product 1"></img>
+               
+               <p></p>
+                <span class="price">Rs.5000</span>
+                <a href="#" class="btn">Add to Cart</a>
+                
+            </div>
+            <div class="product">
+                <img src="headphone2.jpg" alt="Product 2">
+               <p></p>
+                <span class="price">Rs.3500</span>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product">
+                <img src="c2.jpg" alt="Product 2">
+               <p></p>
+                <span class="price">Rs.3500</span>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product">
+                <img src="cm1.jpg" alt="Product 2">
+               <p></p>
+                <span class="price">Rs.3500</span>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product">
+                <img src="cm2.jpg" alt="Product 2">
+               <p></p>
+                <span class="price">Rs.5500</span>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product">
+                <img src="w1.jpg" alt="Product 2">
+               <p></p>
+                <span class="price">Rs.4500</span>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product">
+                <img src="w2.jpg" alt="Product 2">
+               <p></p>
+                <span class="price">Rs.5000</span>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="product">
+                <img src="headphone2.jpg" alt="Product 2">
+               <p></p>
+                <span class="price">Rs.3500</span>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+           
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have questions? Contact our support team.</p>
+            <a href="#" class="btn">Contact Us</a>
+        </div>
+    </section>
+
+    
+</body>
+</html>
