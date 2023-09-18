@@ -4,7 +4,7 @@
 
 body{
     
-    /*background:linear-gradient(120deg,#2980b9, #8e44ad);*/
+
     background: linear-gradient(120deg ,#cadff3,#74ecf0);
 }
 .container {
@@ -58,15 +58,6 @@ body{
 #l1{
     font-size: 25px;
 }
-/*
-.disp_task{
-    width: 500px;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}*/
 
 
 li{
